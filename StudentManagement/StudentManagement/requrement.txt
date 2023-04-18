@@ -1,0 +1,55 @@
+Student Management
+Description:
+Student Management is a web application built with Python Django framework that allows admin users to manage staff,
+ students, and courses. Staff can view their students' information, while students can view their course details 
+ and profiles.
+
+Requirements
+Python 3.6 or higher
+Django 3.0 or higher
+
+Steps:
+install virtualenviornment for comfort
+create django project
+create Django App
+Start with development
+Installation:
+
+Install the dependencies: pip install -r requirements.txt
+install virtualenviornment:pip install virtualenv
+create virtualenv: 'virtualenv(name _of env)
+activate virtualenviornmebt;'venv\Scripts\activate
+create django project:'django-admin-startproject project_name
+create Django App: python manage.py startapp app_name 
+Run the database migrations: python manage.py migrate
+Create a superuser: python manage.py createsuperuser
+Start the server: python manage.py runserver
+
+Usage
+Log in to the admin dashboard using your superuser account.
+Use the navigation menu to manage staff, students, and courses.
+Staff can view their students' information by searching for their names or course names.
+Students can view their course details and profiles by logging in with their student account.
+
+API Endpoints
+/api/students/ - GET, POST, PUT, DELETE
+/api/staff/ - GET, POST, PUT, DELETE
+/api/courses/ - GET, POST, PUT, DELETE
+Database Schema
+The database schema consists of three tables: students, staff, and courses. Each table has its own set of fields, including primary keys and foreign keys for relationships between tables.
+
+Deployment
+To deploy the project to a production server, you will need to:
+
+Install the required dependencies and configure the server environment.
+Set up a web server 
+Configure the Django settings file to use production settings.
+Run the database migrations and collect static files.
+Start the server and configure it to run in the background.
+Make your changes and test them locally.
+Write tests to ensure that your changes work as expected.
+
+Django
+Django REST framework
+Bootstrap
+jQuery
