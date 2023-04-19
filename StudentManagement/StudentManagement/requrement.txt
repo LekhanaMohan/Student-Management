@@ -49,6 +49,8 @@ Start the server and configure it to run in the background.
 Make your changes and test them locally.
 Write tests to ensure that your changes work as expected.
 
+Libraries:
+
 Django
 Django REST framework
 Bootstrap
