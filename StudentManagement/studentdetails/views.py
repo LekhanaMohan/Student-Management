@@ -9,8 +9,6 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import TokenAuthentication
 from .models import Student
 
-
-
 class AdminView(APIView):
     authentication_classes = [IsAdminUser]
 
